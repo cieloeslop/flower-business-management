@@ -32,7 +32,7 @@ Desarrollar un sistema web que permita apoyar la gestión de un emprendimiento d
 - Registrar la composición de los distintos tipos y variantes de flores y ramos a partir de los materiales necesarios para su elaboración.
 - Determinar el costo de elaboración de las flores y ramos a partir del consumo y costo de los materiales involucrados.
 - Facilitar la determinación de precios de venta considerando los costos asociados a la elaboración de los productos.
-- Controlar la disponibilidad de materiales para apoyar la planificación de la producción.
+- Controlar la disponibilidad de materiales mediante el registro de los movimientos asociados a su adquisición, consumo en la producción, mermas y ajustes de inventario, con el fin de apoyar la planificación de la producción.
 - Determinar la cantidad de productos que pueden elaborarse según los materiales disponibles e identificar los insumos que limitan su producción.
 
 ## 5. Alcance
@@ -41,13 +41,16 @@ El proyecto contempla el desarrollo progresivo de un sistema web para apoyar la 
 
 ### 5.1. Alcance inicial (MVP)
 
-La primera versión del sistema estará orientada a la gestión de materiales, composición de productos y cálculo de costos. Se contempla:
+La primera versión del sistema estará orientada a la gestión de materiales, composición de productos, costos, inventario y producción. Se contempla:
 
 - Registrar y gestionar los materiales utilizados en la elaboración de los productos, incluyendo sus variantes, unidades de medida, cantidades disponibles y costos.
 - Registrar la composición o receta de los distintos tipos y variantes de flores, indicando los materiales y cantidades requeridas para su elaboración.
 - Registrar la composición de ramos a partir de flores y otros materiales utilizados en su presentación.
 - Calcular el costo de elaboración de flores y ramos a partir de sus componentes.
-- Gestionar las existencias de materiales.
+- Gestionar las existencias de materiales y sus movimientos de inventario.
+- Registrar la producción de flores y actualizar las existencias de los materiales utilizados según su composición.
+- Registrar mermas de materiales ocasionadas durante el proceso de elaboración.
+- Registrar ajustes de inventario cuando se identifiquen diferencias entre las existencias registradas y las cantidades disponibles físicamente.
 - Determinar la cantidad de unidades de un producto que pueden elaborarse con los materiales disponibles.
 - Identificar los materiales que limitan la producción de un producto.
 - Proporcionar información de costos que apoye la determinación del precio de venta.
